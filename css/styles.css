@@ -1,0 +1,108 @@
+body {
+	margin: 0px;
+	text-align: center;
+	font-family: "Merriweather", serif;
+	color: #40514e;
+	font-weight: bold;
+	/*  background-color: white; */
+}
+hr {
+	width: 5%;
+	border-style: none;
+	border-top: dotted;
+	border-color: #f0ece3;
+	border-width: 8px;
+	margin: 100px auto;
+}
+
+.top {
+	background-color: #eaf6f6;
+	margin: 0px;
+	padding: 100px;
+	position: relative;
+}
+.middle-container {
+}
+.bottom-container {
+	background-color: #66bfbf;
+	padding-top: 50px;
+	word-spacing: 40px;
+	padding-bottom: 30px;
+	line-height: 3;
+}
+h1 {
+	margin-top: 50px;
+	font-family: "Sacramento", cursive;
+	font-size: 5em;
+	color: #66bfbf;
+}
+h2 {
+	font-family: "Comic Neue", cursive;
+	font-size: 2.5rem;
+	color: #66bfbf;
+}
+h3 {
+	font-family: "Comic Neue", cursive;
+	color: #11999e;
+}
+
+.top-cloud {
+	position: absolute;
+	top: 50px;
+	right: 400px;
+}
+.bottom-cloud {
+	position: absolute;
+	left: 400px;
+}
+.pro {
+	text-decoration: underline;
+}
+a {
+	color: #11999e;
+}
+.skill-row {
+	margin: 100px auto 100px auto;
+	width: 50%;
+	text-align: left;
+	line-height: 2;
+}
+.gif {
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+}
+.lap {
+	width: 25%;
+	float: right;
+	margin-right: 30px;
+}
+.contact-me {
+	line-height: 2;
+	padding-bottom: 90px;
+}
+.myButton {
+	box-shadow: inset 0px 1px 3px 0px #91b8b3;
+	/* background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%); */
+	background-color: #595238;
+	border-radius: 5px;
+	border: 1px solid #566963;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: "Merriweather", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 11px 23px;
+	text-decoration: none;
+}
+.myButton:hover {
+	background: #683597;
+}
+.myButton:active {
+	position: relative;
+	top: 1px;
+}
+.footer-link:hover {
+	color: #b83b5e;
+}
